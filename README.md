@@ -6,7 +6,23 @@
 
 ###
 
-<p align="left">Accounting undergraduate with three years of experience, specializing in data analysis and programming with Python 3, Power BI (DAX & Power Query), Excel (VBA), PL/SQL, and other technologies aimed at increasing productivity in the accounting and business sectors. I develop solutions for ERP systems like Sankhya and the Microsoft/Google ecosystem, integrating Excel with Word, Outlook, MySQL, Access, and more. Proficient in Microsoft Office Suite, I excel at translating data into actionable insights, creating interactive dashboards, and automating processes to support strategic decision-making.</p>
+<p align="left"
+ **Financial Data Analyst | Software Developer | Tech Accountant**
+
+I bridge the gap between Corporate Finance and Technology. With a strong background in Controlling and Accounting (FP&A), I specialize in building automated financial ecosystems, end-to-end data pipelines, and high-impact BI solutions.
+
+### 🚀 What I do
+* **Financial Intelligence:** Automated P&L (DRE), Cash Flow modeling, and advanced Inventory analysis (Slow Moving).
+* **Data Engineering & ETL:** Orchestrating data extraction, transformation, and load processes from complex ERPs (SAP B1, Sankhya) into actionable databases.
+* **Cloud & Automation:** Replacing manual financial routines with AI-driven, highly available architectures using Docker and Cloud Native solutions.
+* **Business Translation:** Translating complex technology into strategic insights for C-level executives.
+
+### 🛠️ Tech Stack & Tools
+* **Programming:** Python, SQL (PL/SQL, MySQL), VBA
+* **Data & BI:** Power BI (DAX, Power Query/M), Advanced Excel
+* **Cloud & Infrastructure:** Google Cloud Platform (GCP), Docker, Cloud Run, Railway
+* **ERPs & Integrations:** SAP B1, Sankhya, RESTful APIs
+</p>
 
 ###
 

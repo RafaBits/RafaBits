@@ -1,6 +1,7 @@
-# Builds the contribution-grid snake shown in the README and publishes it to the
-# `output` branch (the README reads it from raw.githubusercontent.com).
-name: snake
+# Builds the single terminal image shown in the README (stack, live stats and the
+# contribution snake) and publishes it to the `output` branch, where the README
+# reads it from raw.githubusercontent.com.
+name: profile
 
 on:
   schedule:
@@ -8,28 +9,39 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [".github/workflows/snake.yml"]
+    paths:
+      - "scripts/build_svgs.py"
+      - ".github/workflows/profile.yml"
 
 permissions:
   contents: write # push to the `output` branch, nothing else
 
 concurrency:
-  group: snake
+  group: profile
   cancel-in-progress: true
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       # third-party actions pinned to the commit of their release tag
-      - name: generate snake svgs
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: generate snake
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake-dark.svg?color_snake=#3dff8a&color_dots=#0a1a10,#0f2d1b,#174a2e,#2f9a5c,#3dff8a
-            dist/snake-light.svg?color_snake=#0f2d1b&color_dots=#ebf5ee,#9be9b4,#40c46b,#2f9a5c,#174a2e
+            dist/snake.svg?color_snake=#3dff8a&color_dots=#0a1a10,#0f2d1b,#174a2e,#2f9a5c,#3dff8a
+
+      - name: build profile.svg
+        run: python3 scripts/build_svgs.py --snake dist/snake.svg --out dist/profile.svg
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: publish to output branch
         uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0

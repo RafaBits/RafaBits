@@ -1,75 +1,37 @@
-![Github_banner](github-header-image.png)
-
-###
-
-<h1 align="left">About me</h1>
-
-###
-
-<p align="left"
- **Financial Data Analyst | Software Developer | Tech Accountant**
-
-I bridge the gap between Corporate Finance and Technology. With a strong background in Controlling and Accounting (FP&A), I specialize in building automated financial ecosystems, end-to-end data pipelines, and high-impact BI solutions.
-
-### 🚀 What I do
-* **Financial Intelligence:** Automated P&L (DRE), Cash Flow modeling, and advanced Inventory analysis (Slow Moving).
-* **Data Engineering & ETL:** Orchestrating data extraction, transformation, and load processes from complex ERPs (SAP B1, Sankhya) into actionable databases.
-* **Cloud & Automation:** Replacing manual financial routines with AI-driven, highly available architectures using Docker and Cloud Native solutions.
-* **Business Translation:** Translating complex technology into strategic insights for C-level executives.
-
-### 🛠️ Tech Stack & Tools
-* **Programming:** Python, SQL (PL/SQL, MySQL), VBA
-* **Data & BI:** Power BI (DAX, Power Query/M), Advanced Excel
-* **Cloud & Infrastructure:** Google Cloud Platform (GCP), Docker, Cloud Run, Railway
-* **ERPs & Integrations:** SAP B1, Sankhya, RESTful APIs
-</p>
-
-###
-
-<h1 align="left">I code with</h1>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="40" alt="tensorflow logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="sqlite logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" height="40" alt="r logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" alt="pycharm logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="pandas logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="40" alt="opencv logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="csharp logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="cplusplus logo"  />
-</div>
-
-###
+<!-- The SVGs in assets/ are generated: edit scripts/build_svgs.py and run `python scripts/build_svgs.py`. -->
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/RafaBits/count.svg?"  />
+  <img src="assets/header.svg" width="100%" alt="RAFABITS terminal boot screen: game dev (Godot 4), Python and AI; background in finance and data" />
 </div>
 
-###
+<br />
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RafaBits&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=RafaBits&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=RafaBits&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+  <img src="assets/dashboard.svg" width="100%" alt="Stack. Gamedev: Godot 4, GDScript, C#, C++. Python: pandas, NumPy, SQL, SQLite, MySQL, Docker, GCP, Linux. AI/ML: TensorFlow, OpenCV, LLM agents, Claude Code." />
 </div>
 
-###
+<br />
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=RafaBits&show_icons=true&include_all_commits=true&count_private=true&bg_color=030705&title_color=3dff8a&text_color=c6f6d8&icon_color=39c6ff&ring_color=3dff8a&border_color=174a2e&border_radius=0" height="165" alt="GitHub stats" />
+  <img src="https://streak-stats.demolab.com?user=RafaBits&background=030705&border=174a2e&stroke=174a2e&ring=3dff8a&fire=39c6ff&currStreakNum=effff4&sideNums=effff4&currStreakLabel=3dff8a&sideLabels=7cb896&dates=7cb896&border_radius=0" height="165" alt="GitHub streak" />
+</div>
+
+<br />
+
+<!-- Built daily by .github/workflows/snake.yml into the `output` branch. -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RafaBits/RafaBits/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RafaBits/RafaBits/output/snake-light.svg" />
+    <img src="https://raw.githubusercontent.com/RafaBits/RafaBits/output/snake-dark.svg" width="100%" alt="snake eating the contribution grid" />
+  </picture>
+</div>
+
+<br />
+
+<div align="center">
+  <img src="assets/footer.svg" width="100%" alt="key hints: 1 gamedev, 2 python, 3 ai, ? help, q quit" />
+  <br /><br />
+  <img src="https://komarev.com/ghpvc/?username=RafaBits&label=visitors&color=3dff8a&style=flat-square" alt="profile visitors" />
+</div>

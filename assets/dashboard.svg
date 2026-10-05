@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="332" viewBox="0 0 880 332" role="img" aria-labelledby="title">
+<title id="title">stack: Godot 4, GDScript, C#, Python, SQL, Docker, GCP, TensorFlow, OpenCV, LLM agents</title>
+<defs>
+  <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse">
+    <rect y="2" width="4" height="1" fill="#000" opacity=".28"/>
+  </pattern>
+  <radialGradient id="vig" cx="50%" cy="50%" r="75%">
+    <stop offset="62%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000" stop-opacity=".55"/>
+  </radialGradient>
+  <filter id="glow" x="-5%" y="-20%" width="110%" height="140%">
+    <feGaussianBlur stdDeviation="2.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="frame"><rect width="880" height="332" rx="8"/></clipPath>
+</defs>
+<style>
+  text { font-family: 'JetBrains Mono','Cascadia Mono','SF Mono',Consolas,'DejaVu Sans Mono','Liberation Mono',monospace; font-size: 13px; }
+  .blink { animation: blink 1.05s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  .lbl { letter-spacing: .06em; }
+</style>
+<g clip-path="url(#frame)">
+<rect width="880" height="332" fill="#030705"/>
+<text x="16" y="30" xml:space="preserve"><tspan fill="#3dff8a">rafabits://</tspan><tspan fill="#effff4">stack</tspan><tspan fill="#7cb896">   what I build with, by area</tspan></text>
+<rect x="16.0" y="58" width="273.3333333333333" height="102" fill="none" stroke="#174a2e"/>
+<rect x="19.12" y="50" width="63.96" height="16" fill="#030705"/>
+<text x="23.8" y="62.5" fill="#3dff8a" font-weight="400" class="lbl">GAMEDEV</text>
+<rect x="214.453" y="50" width="71.76" height="16" fill="#030705"/>
+<text x="281.533" y="62.5" fill="#3dff8a" font-weight="400" text-anchor="end">● active</text>
+<text x="23.8" y="82" xml:space="preserve"><tspan fill="#7cb896">engine  </tspan><tspan fill="#c6f6d8">Godot 4</tspan></text>
+<text x="23.8" y="101" xml:space="preserve"><tspan fill="#7cb896">lang    </tspan><tspan fill="#c6f6d8">GDScript · C#</tspan></text>
+<text x="23.8" y="120" xml:space="preserve"><tspan fill="#7cb896">also    </tspan><tspan fill="#c6f6d8">C++</tspan></text>
+<text x="23.8" y="139" xml:space="preserve"><tspan fill="#7cb896">loop    </tspan><tspan fill="#c6f6d8">build · playtest · ship</tspan></text>
+<rect x="303.3333333333333" y="58" width="273.3333333333333" height="102" fill="none" stroke="#174a2e"/>
+<rect x="306.453" y="50" width="56.16" height="16" fill="#030705"/>
+<text x="311.133" y="62.5" fill="#3dff8a" font-weight="400" class="lbl">PYTHON</text>
+<rect x="509.587" y="50" width="63.96" height="16" fill="#030705"/>
+<text x="568.867" y="62.5" fill="#3dff8a" font-weight="400" text-anchor="end">● daily</text>
+<text x="311.133" y="82" xml:space="preserve"><tspan fill="#7cb896">core    </tspan><tspan fill="#c6f6d8">Python 3</tspan></text>
+<text x="311.133" y="101" xml:space="preserve"><tspan fill="#7cb896">data    </tspan><tspan fill="#c6f6d8">pandas · NumPy</tspan></text>
+<text x="311.133" y="120" xml:space="preserve"><tspan fill="#7cb896">db      </tspan><tspan fill="#c6f6d8">SQL · SQLite · MySQL</tspan></text>
+<text x="311.133" y="139" xml:space="preserve"><tspan fill="#7cb896">infra   </tspan><tspan fill="#c6f6d8">Docker · GCP · Linux</tspan></text>
+<rect x="590.6666666666666" y="58" width="273.3333333333333" height="102" fill="none" stroke="#174a2e"/>
+<rect x="593.787" y="50" width="63.96" height="16" fill="#030705"/>
+<text x="598.467" y="62.5" fill="#3dff8a" font-weight="400" class="lbl">AI / ML</text>
+<rect x="765.72" y="50" width="95.16" height="16" fill="#030705"/>
+<text x="856.2" y="62.5" fill="#39c6ff" font-weight="400" text-anchor="end">● exploring</text>
+<text x="598.467" y="82" xml:space="preserve"><tspan fill="#7cb896">ml      </tspan><tspan fill="#c6f6d8">TensorFlow</tspan></text>
+<text x="598.467" y="101" xml:space="preserve"><tspan fill="#7cb896">vision  </tspan><tspan fill="#c6f6d8">OpenCV</tspan></text>
+<text x="598.467" y="120" xml:space="preserve"><tspan fill="#7cb896">agents  </tspan><tspan fill="#c6f6d8">LLMs · Claude Code</tspan></text>
+<text x="598.467" y="139" xml:space="preserve"><tspan fill="#7cb896">glue    </tspan><tspan fill="#c6f6d8">Python everywhere</tspan></text>
+<rect x="16" y="188" width="848" height="128" fill="none" stroke="#174a2e"/>
+<rect x="19.12" y="180" width="63.96" height="16" fill="#030705"/>
+<text x="23.8" y="192.5" fill="#3dff8a" font-weight="400" class="lbl">NOW.LOG</text>
+<rect x="765.72" y="180" width="95.16" height="16" fill="#030705"/>
+<text x="856.2" y="192.5" fill="#3dff8a" font-weight="400" text-anchor="end">following ↓</text>
+<text x="23.8" y="212" xml:space="preserve"><tspan fill="#7cb896">00  </tspan><tspan fill="#39c6ff">info  </tspan><tspan fill="#c6f6d8">building games with Godot 4 and GDScript</tspan></text>
+<text x="23.8" y="231" xml:space="preserve"><tspan fill="#7cb896">01  </tspan><tspan fill="#3dff8a">ok    </tspan><tspan fill="#c6f6d8">automating the boring parts with Python</tspan></text>
+<text x="23.8" y="250" xml:space="preserve"><tspan fill="#7cb896">02  </tspan><tspan fill="#39c6ff">info  </tspan><tspan fill="#c6f6d8">wiring AI into both: agents, vision, dev tooling</tspan></text>
+<text x="23.8" y="269" xml:space="preserve"><tspan fill="#7cb896">03  </tspan><tspan fill="#ffb347">warn  </tspan><tspan fill="#effff4">public repos loading... stay tuned</tspan></text>
+<line x1="23.8" x2="856.2" y1="290" y2="290" stroke="#174a2e"/>
+<text x="23.8" y="308" fill="#3dff8a" font-weight="400">rafabits ▸ </text>
+<rect class="blink" x="109.6" y="295" width="7.8" height="16" fill="#3dff8a"/>
+<text x="133" y="308" fill="#7cb896" font-weight="400">try: play | build | train | ship</text>
+<rect width="880" height="332" fill="url(#scan)" pointer-events="none"/><rect width="880" height="332" fill="url(#vig)" pointer-events="none"/><rect x=".5" y=".5" width="879" height="331" rx="8" fill="none" stroke="#174a2e"/>
+</g>
+</svg>

@@ -1,0 +1,41 @@
+# Builds the contribution-grid snake shown in the README and publishes it to the
+# `output` branch (the README reads it from raw.githubusercontent.com).
+name: snake
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily, 03:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/snake.yml"]
+
+permissions:
+  contents: write # push to the `output` branch, nothing else
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # third-party actions pinned to the commit of their release tag
+      - name: generate snake svgs
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?color_snake=#3dff8a&color_dots=#0a1a10,#0f2d1b,#174a2e,#2f9a5c,#3dff8a
+            dist/snake-light.svg?color_snake=#0f2d1b&color_dots=#ebf5ee,#9be9b4,#40c46b,#2f9a5c,#174a2e
+
+      - name: publish to output branch
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
+        with:
+          target_branch: output
+          build_dir: dist
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
